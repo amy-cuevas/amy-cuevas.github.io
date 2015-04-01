@@ -5,7 +5,7 @@ $(document).ready(function(){
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
     //save their guess as a variable
-    var userGuess=parseInt $('input').val();
+    var userGuess=parseInt ($('input').val());
     
     
     //and compare this guess to the random number that the computer picked
@@ -17,18 +17,18 @@ $(document).ready(function(){
     }
       
     //if the user guessed too high...
-    else if (random_Integer<userGuess){
+    else if (userGuess>random_Integer){
     
       //update the 'feedback' paragraph to tell them to guess lower
       confirm("Guess lower");
     }
       
     //otherwise, the user guessed too low...
-    else if (random_Integer<userGuess){
+    else if (userGuess>random_Integer){
     
     
     
       //update the 'feedback' paragraph to tell them to guess higher
-    confirm("Guess higer");}
+    confirm("Guess higher");}
   });
 });
