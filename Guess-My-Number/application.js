@@ -20,7 +20,7 @@ $(document).ready(function(){
     else if (random_Integer<userGuess){
     
       //update the 'feedback' paragraph to tell them to guess lower
-      console.log("Guess lower");
+      confirm("Guess lower");
     }
       
     //otherwise, the user guessed too low...
@@ -29,6 +29,6 @@ $(document).ready(function(){
     
     
       //update the 'feedback' paragraph to tell them to guess higher
-    console.log("Guess higer");}
+    confirm("Guess higer");}
   });
 });
