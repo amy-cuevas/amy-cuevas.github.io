@@ -1,16 +1,16 @@
 $(document).ready(function(){
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
-  var guessNum=0;
+  var guessNum=0;//allows the player to start from 0 
   var random_Integer= Math.floor(Math.random()*100);
   
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
     //save their guess as a variable
     var userGuess=parseInt($('input').val());
-    guessNum = guessNum + 1;
+    guessNum = guessNum + 1;//saves the number of guesses
     
     var element= document.getElementById ("guess_counter");
-    element.innerHTML= " "+ guessNum + " guesses so far";
+    element.innerHTML= " "+ guessNum + " guesses so far";//alllows for the amount of guesses to be shown
     
     
     //and compare this guess to the random number that the computer picked
