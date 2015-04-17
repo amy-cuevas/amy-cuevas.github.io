@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var click_count=0;
  var first_guess=0;
  var second_guess=0;
