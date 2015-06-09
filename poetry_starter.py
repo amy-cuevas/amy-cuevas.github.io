@@ -30,10 +30,18 @@ def makePoem():
     adj1 = choice(adjective)
     adj2 = choice(adjective)
     adj3 = choice(adjective)
+    while adj1 == adj2
+        adj2 = choice(adjective)
+    while adj1 == adj3 or adj2 == adj3:
+        adj3 = choice(adjective)
     #make sure that no adjectives are used more than once
 
     prep1 = choice(preposition)
     prep2 = choice(preposition)
+    while prep1 == prep2
+        prep2 = choice(preposition)
+    while prep1 == prep2 :
+        prep1 = choice(preposition)
     #make sure that no prepositions are used more than once
 
     adv1 = choice(adverb)
