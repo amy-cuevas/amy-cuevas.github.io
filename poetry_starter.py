@@ -21,6 +21,10 @@ def makePoem():
     v1 = choice(verb)
     v2 = choice(verb)
     v3 = choice(verb)
+    while v1 == v2
+        v2 = choice(verb)
+    while v1 == v3 or v2 == v3:
+        v3 = choice(verb)
     #make sure that no verbs are used more than once
 
     adj1 = choice(adjective)
