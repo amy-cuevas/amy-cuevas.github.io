@@ -51,10 +51,10 @@ def makePoem():
     else:
         article1 = "A"
     
-    if _____: #check to see if adj3 starts with a vowel
-    	article3 = #if so, make article3 'an'
+    if "aeiou".find(adj3[0]) != -1: #check to see if adj3 starts with a vowel
+    	article3 = "An" #if so, make article3 'an'
     else:
-    	article3 = 
+    	article3 = "A"
 
     poem = "The %s %s\n" %(adj1, n1)
     poem = poem + "%s %s %s %s %s the %s %s\n" %(article1, adj1, n1, v1, prep1, adj2, n2)
