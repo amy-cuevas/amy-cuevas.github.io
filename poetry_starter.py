@@ -39,9 +39,8 @@ def makePoem():
     prep1 = choice(preposition)
     prep2 = choice(preposition)
     while prep1 == prep2
-        prep2 = choice(preposition)
-    while prep1 == prep2 :
-        prep1 = choice(preposition)
+        prep2 = choice(preposition):
+   
     #make sure that no prepositions are used more than once
 
     adv1 = choice(adverb)
@@ -61,7 +60,7 @@ def makePoem():
     poem = poem + "%s, the %s %s\n" %(adv1, n1, v2)
     poem = poem + "the %s %s %s %s %s %s.\n" %(n2, v3, prep2, article3, adj3, n3)
 
-    file_path = #where do you want to save the text file?
+    file_path = "Desktop/poems/"#where do you want to save the text file?
     text_file = open(file_path, "w")
     text_file.write() #insert the poem to write it to the new file
     return poem
