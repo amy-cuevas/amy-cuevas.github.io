@@ -19,7 +19,7 @@ for i in range(10000): #Runs the code 10,000 times.
     region_wins = region_wins
     
   if region_wins >= 2:
-    print 
-  else:
-    print "You did not win the election..."
-total_wins = region_wins / 10000
+    total_wins = total_wins + 1
+ 
+    
+ print total_wins / 10000
